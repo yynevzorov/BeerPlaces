@@ -425,6 +425,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Nevzorov.BeerPlaces;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -438,6 +439,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Nevzorov.BeerPlaces;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -518,6 +520,7 @@
 				1CF421B91DCDC0800019F72D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CF421BA1DCDC0800019F72D /* Build configuration list for PBXNativeTarget "BeerPlacesTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +529,7 @@
 				1CF421BC1DCDC0800019F72D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CF421BD1DCDC0800019F72D /* Build configuration list for PBXNativeTarget "BeerPlacesUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +538,7 @@
 				1CF421BF1DCDC0800019F72D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
