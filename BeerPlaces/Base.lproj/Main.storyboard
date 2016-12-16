@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BeerPlaces" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,79 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlueBackGround" translatesAutoresizingMaskIntoConstraints="NO" id="xsW-Ht-BMI">
+                                <rect key="frame" x="-20" y="0.0" width="395" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top_picRGB26_39_53 V2" translatesAutoresizingMaskIntoConstraints="NO" id="Fgs-a5-D9x">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="102"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="102" id="JOG-ME-dnY"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xsW-Ht-BMI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-20" id="Fcr-yE-NMl"/>
+                            <constraint firstItem="Fgs-a5-D9x" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="IVh-9t-J3n"/>
+                            <constraint firstAttribute="trailing" secondItem="Fgs-a5-D9x" secondAttribute="trailing" id="Q9d-wJ-Ibx"/>
+                            <constraint firstAttribute="trailing" secondItem="xsW-Ht-BMI" secondAttribute="trailing" id="Tr9-Ra-9yl"/>
+                            <constraint firstItem="Fgs-a5-D9x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bna-CM-Zfn"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xsW-Ht-BMI" secondAttribute="bottom" id="fPf-XH-N3V"/>
+                            <constraint firstItem="xsW-Ht-BMI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="irv-IY-jug"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
+        </scene>
+        <!--Data View Controller-->
+        <scene sceneID="AFl-uc-UiI">
+            <objects>
+                <viewController storyboardIdentifier="DataViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Xxz-ZB-HHw" customClass="DataViewController" customModule="BeerPlaces" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gyE-jN-ovc"/>
+                        <viewControllerLayoutGuide type="bottom" id="vcw-nN-IhC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KW5-nj-WhZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" indicatorStyle="white" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfL-xI-3c1">
+                                <rect key="frame" x="67" y="50" width="240" height="500"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="500" id="O1b-k9-ejG"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="khkhlkhklj fhskdjhflakjhdfal">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="12" name="PTSans-Caption"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="vfL-xI-3c1" firstAttribute="leading" secondItem="KW5-nj-WhZ" secondAttribute="leadingMargin" constant="51" id="8s0-X3-3t8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vfL-xI-3c1" secondAttribute="trailing" constant="52" id="CE2-G1-ysP"/>
+                            <constraint firstItem="vfL-xI-3c1" firstAttribute="top" secondItem="gyE-jN-ovc" secondAttribute="bottom" constant="30" id="gO6-yt-u1q"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textDataViewController" destination="vfL-xI-3c1" id="Igu-AQ-Nu3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CLP-Ce-8u4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="655.20000000000005" y="33.733133433283363"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="BlueBackGround" width="360" height="640"/>
+        <image name="top_picRGB26_39_53 V2" width="360" height="101"/>
+    </resources>
 </document>

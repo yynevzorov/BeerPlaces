@@ -21,6 +21,10 @@
 		1CF4219D1DCDC07F0019F72D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF4219B1DCDC07F0019F72D /* LaunchScreen.storyboard */; };
 		1CF421A81DCDC0800019F72D /* BeerPlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF421A71DCDC0800019F72D /* BeerPlacesTests.swift */; };
 		1CF421B31DCDC0800019F72D /* BeerPlacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF421B21DCDC0800019F72D /* BeerPlacesUITests.swift */; };
+		48B7FB981DF7460C00B95977 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B7FB971DF7460C00B95977 /* ModelController.swift */; };
+		48B7FB9A1DF749C200B95977 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B7FB991DF749C200B95977 /* DataViewController.swift */; };
+		48B7FB9B1DF750ED00B95977 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B7FB971DF7460C00B95977 /* ModelController.swift */; };
+		48B7FB9C1DF7511000B95977 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B7FB991DF749C200B95977 /* DataViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,8 @@
 		1CF421AE1DCDC0800019F72D /* BeerPlacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeerPlacesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF421B21DCDC0800019F72D /* BeerPlacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerPlacesUITests.swift; sourceTree = "<group>"; };
 		1CF421B41DCDC0800019F72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48B7FB971DF7460C00B95977 /* ModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		48B7FB991DF749C200B95977 /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				1CF4218F1DCDC07F0019F72D /* AppDelegate.swift */,
+				48B7FB971DF7460C00B95977 /* ModelController.swift */,
+				48B7FB991DF749C200B95977 /* DataViewController.swift */,
 				1CF421911DCDC07F0019F72D /* ViewController.swift */,
 				1CF421931DCDC07F0019F72D /* Main.storyboard */,
 				1CF421991DCDC07F0019F72D /* Assets.xcassets */,
@@ -314,6 +322,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CAF646B1DD888C3005268ED /* ViewController.swift in Sources */,
+				48B7FB9B1DF750ED00B95977 /* ModelController.swift in Sources */,
+				48B7FB9C1DF7511000B95977 /* DataViewController.swift in Sources */,
 				1CAF646C1DD888C3005268ED /* AppDelegate.swift in Sources */,
 				1CAF646D1DD888C3005268ED /* BeerPlaces.xcdatamodeld in Sources */,
 			);
@@ -324,6 +334,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CF421921DCDC07F0019F72D /* ViewController.swift in Sources */,
+				48B7FB981DF7460C00B95977 /* ModelController.swift in Sources */,
+				48B7FB9A1DF749C200B95977 /* DataViewController.swift in Sources */,
 				1CF421901DCDC07F0019F72D /* AppDelegate.swift in Sources */,
 				1CF421981DCDC07F0019F72D /* BeerPlaces.xcdatamodeld in Sources */,
 			);
