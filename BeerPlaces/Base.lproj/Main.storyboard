@@ -24,7 +24,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlueBackGround" translatesAutoresizingMaskIntoConstraints="NO" id="xsW-Ht-BMI">
                                 <rect key="frame" x="-20" y="0.0" width="395" height="667"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top_picRGB26_39_53 V2" translatesAutoresizingMaskIntoConstraints="NO" id="Fgs-a5-D9x">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top_picRGB26_39_53 V2" translatesAutoresizingMaskIntoConstraints="NO" id="Fgs-a5-D9x">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="102"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="102" id="JOG-ME-dnY"/>

@@ -32,8 +32,8 @@ class DataViewController: UIViewController {
         super.viewWillAppear(animated)
         textDataViewController.text = dataObject
 //        textDataViewController.textColor = UIColor (white : 1.0, alpha : 1.0)
-        textDataViewController.textColor = UIColor (red : 1.0, green : 1.0, blue : 1.0, alpha : 1.0)
-        textDataViewController.textAlignment = .center
+        textDataViewController.textColor = UIColor (red : 1.0, green : 1.0, blue : 0.5, alpha : 1.0)
+        textDataViewController.textAlignment = .justified
 /*        self.dataLabel1!.text = dataObject1
         if (index != 0) {
             textView!.isHidden = true
