@@ -30,6 +30,7 @@
 		48F1BBD51E0928DE009987BE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48F1BBD71E0928DE009987BE /* Localizable.strings */; };
 		48F1BBDA1E0928DF009987BE /* BeerPlacesFor4S-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48F1BBDC1E0928DF009987BE /* BeerPlacesFor4S-InfoPlist.strings */; };
 		48F1BBE01E0928E0009987BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48F1BBE21E0928E0009987BE /* InfoPlist.strings */; };
+		48F1BBEE1E09885F009987BE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48F1BBF01E09885F009987BE /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,15 @@
 		48F1BBDB1E0928DF009987BE /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = "ru.lproj/BeerPlacesFor4S-InfoPlist.strings"; sourceTree = "<group>"; };
 		48F1BBDD1E0928DF009987BE /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		48F1BBE11E0928E0009987BE /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48F1BBE81E09885E009987BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48F1BBE91E09885E009987BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		48F1BBEA1E09885E009987BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48F1BBEB1E09885F009987BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		48F1BBEF1E09885F009987BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		48F1BBF11E098860009987BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/BeerPlacesFor4S-InfoPlist.strings"; sourceTree = "<group>"; };
+		48F1BBF21E098860009987BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		48F1BBF31E098860009987BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48F1BBF41E098A1B009987BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +122,7 @@
 		1CF421831DCDC07F0019F72D = {
 			isa = PBXGroup;
 			children = (
+				48F1BBF01E09885F009987BE /* Localizable.strings */,
 				48F1BBDC1E0928DF009987BE /* BeerPlacesFor4S-InfoPlist.strings */,
 				1CF4218E1DCDC07F0019F72D /* BeerPlaces */,
 				1CF421A61DCDC0800019F72D /* BeerPlacesTests */,
@@ -301,6 +312,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48F1BBEE1E09885F009987BE /* Localizable.strings in Resources */,
 				1CAF64701DD888C3005268ED /* LaunchScreen.storyboard in Resources */,
 				1CAF64711DD888C3005268ED /* Assets.xcassets in Resources */,
 				48F1BBDA1E0928DF009987BE /* BeerPlacesFor4S-InfoPlist.strings in Resources */,
@@ -400,6 +412,7 @@
 			children = (
 				1CF421941DCDC07F0019F72D /* Base */,
 				48F1BBC81E08048D009987BE /* ru */,
+				48F1BBE91E09885E009987BE /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -409,6 +422,7 @@
 			children = (
 				1CF4219C1DCDC07F0019F72D /* Base */,
 				48F1BBDD1E0928DF009987BE /* ru */,
+				48F1BBF21E098860009987BE /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -417,6 +431,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				48F1BBCC1E0928DD009987BE /* ru */,
+				48F1BBE81E09885E009987BE /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -425,6 +440,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				48F1BBD11E0928DE009987BE /* ru */,
+				48F1BBEA1E09885E009987BE /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -433,6 +449,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				48F1BBD61E0928DE009987BE /* ru */,
+				48F1BBEB1E09885F009987BE /* en */,
+				48F1BBF41E098A1B009987BE /* Base */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -441,6 +459,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				48F1BBDB1E0928DF009987BE /* ru */,
+				48F1BBF11E098860009987BE /* en */,
 			);
 			name = "BeerPlacesFor4S-InfoPlist.strings";
 			sourceTree = "<group>";
@@ -449,8 +468,17 @@
 			isa = PBXVariantGroup;
 			children = (
 				48F1BBE11E0928E0009987BE /* ru */,
+				48F1BBF31E098860009987BE /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		48F1BBF01E09885F009987BE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48F1BBEF1E09885F009987BE /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
