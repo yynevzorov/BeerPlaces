@@ -21,6 +21,14 @@
 		1CF4219D1DCDC07F0019F72D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF4219B1DCDC07F0019F72D /* LaunchScreen.storyboard */; };
 		1CF421A81DCDC0800019F72D /* BeerPlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF421A71DCDC0800019F72D /* BeerPlacesTests.swift */; };
 		1CF421B31DCDC0800019F72D /* BeerPlacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF421B21DCDC0800019F72D /* BeerPlacesUITests.swift */; };
+		481417FE1E0F930F0059C3B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 481417FD1E0F930F0059C3B3 /* InfoPlist.strings */; };
+		481418001E0F939D0059C3B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 481417FF1E0F939D0059C3B3 /* InfoPlist.strings */; };
+		481418021E0F93FD0059C3B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 481418011E0F93FD0059C3B3 /* InfoPlist.strings */; };
+		481418051E0F94BF0059C3B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 481418071E0F94BF0059C3B3 /* InfoPlist.strings */; };
+		4814180A1E0F94BF0059C3B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4814180C1E0F94BF0059C3B3 /* InfoPlist.strings */; };
+		481418101E0F94C00059C3B3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 481418121E0F94C00059C3B3 /* Localizable.strings */; };
+		481418151E0F94C10059C3B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 481418171E0F94C10059C3B3 /* InfoPlist.strings */; };
+		4814181A1E0F95260059C3B3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4814181C1E0F95260059C3B3 /* Localizable.strings */; };
 		48B7FB981DF7460C00B95977 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B7FB971DF7460C00B95977 /* ModelController.swift */; };
 		48B7FB9A1DF749C200B95977 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B7FB991DF749C200B95977 /* DataViewController.swift */; };
 		48B7FB9B1DF750ED00B95977 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B7FB971DF7460C00B95977 /* ModelController.swift */; };
@@ -61,6 +69,16 @@
 		1CF421AE1DCDC0800019F72D /* BeerPlacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeerPlacesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF421B21DCDC0800019F72D /* BeerPlacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerPlacesUITests.swift; sourceTree = "<group>"; };
 		1CF421B41DCDC0800019F72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		481417FC1E0F8C3D0059C3B3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		481417FD1E0F930F0059C3B3 /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		481417FF1E0F939D0059C3B3 /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		481418011E0F93FD0059C3B3 /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		481418061E0F94BF0059C3B3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4814180B1E0F94BF0059C3B3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4814180D1E0F94BF0059C3B3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		481418111E0F94C00059C3B3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		481418161E0F94C10059C3B3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4814181B1E0F95260059C3B3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		48B7FB971DF7460C00B95977 /* ModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		48B7FB991DF749C200B95977 /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,6 +118,7 @@
 		1CF421831DCDC07F0019F72D = {
 			isa = PBXGroup;
 			children = (
+				4814181C1E0F95260059C3B3 /* Localizable.strings */,
 				1CF4218E1DCDC07F0019F72D /* BeerPlaces */,
 				1CF421A61DCDC0800019F72D /* BeerPlacesTests */,
 				1CF421B11DCDC0800019F72D /* BeerPlacesUITests */,
@@ -122,6 +141,8 @@
 		1CF4218E1DCDC07F0019F72D /* BeerPlaces */ = {
 			isa = PBXGroup;
 			children = (
+				481418171E0F94C10059C3B3 /* InfoPlist.strings */,
+				481418121E0F94C00059C3B3 /* Localizable.strings */,
 				1CF4218F1DCDC07F0019F72D /* AppDelegate.swift */,
 				48B7FB971DF7460C00B95977 /* ModelController.swift */,
 				48B7FB991DF749C200B95977 /* DataViewController.swift */,
@@ -138,6 +159,10 @@
 		1CF421A61DCDC0800019F72D /* BeerPlacesTests */ = {
 			isa = PBXGroup;
 			children = (
+				481418071E0F94BF0059C3B3 /* InfoPlist.strings */,
+				481418011E0F93FD0059C3B3 /* InfoPlist.strings */,
+				481417FF1E0F939D0059C3B3 /* InfoPlist.strings */,
+				481417FD1E0F930F0059C3B3 /* InfoPlist.strings */,
 				1CF421A71DCDC0800019F72D /* BeerPlacesTests.swift */,
 				1CF421A91DCDC0800019F72D /* Info.plist */,
 			);
@@ -147,6 +172,7 @@
 		1CF421B11DCDC0800019F72D /* BeerPlacesUITests */ = {
 			isa = PBXGroup;
 			children = (
+				4814180C1E0F94BF0059C3B3 /* InfoPlist.strings */,
 				1CF421B21DCDC0800019F72D /* BeerPlacesUITests.swift */,
 				1CF421B41DCDC0800019F72D /* Info.plist */,
 			);
@@ -285,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CAF64701DD888C3005268ED /* LaunchScreen.storyboard in Resources */,
+				4814181A1E0F95260059C3B3 /* Localizable.strings in Resources */,
 				1CAF64711DD888C3005268ED /* Assets.xcassets in Resources */,
 				1CAF64721DD888C3005268ED /* Main.storyboard in Resources */,
 			);
@@ -295,8 +322,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CF4219D1DCDC07F0019F72D /* LaunchScreen.storyboard in Resources */,
+				481418101E0F94C00059C3B3 /* Localizable.strings in Resources */,
 				1CF4219A1DCDC07F0019F72D /* Assets.xcassets in Resources */,
 				1CF421951DCDC07F0019F72D /* Main.storyboard in Resources */,
+				481418151E0F94C10059C3B3 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +333,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				481417FE1E0F930F0059C3B3 /* InfoPlist.strings in Resources */,
+				481418051E0F94BF0059C3B3 /* InfoPlist.strings in Resources */,
+				481418021E0F93FD0059C3B3 /* InfoPlist.strings in Resources */,
+				481418001E0F939D0059C3B3 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4814180A1E0F94BF0059C3B3 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +411,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				1CF421941DCDC07F0019F72D /* Base */,
+				481417FC1E0F8C3D0059C3B3 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -385,8 +420,49 @@
 			isa = PBXVariantGroup;
 			children = (
 				1CF4219C1DCDC07F0019F72D /* Base */,
+				4814180D1E0F94BF0059C3B3 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		481418071E0F94BF0059C3B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				481418061E0F94BF0059C3B3 /* ru */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4814180C1E0F94BF0059C3B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4814180B1E0F94BF0059C3B3 /* ru */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		481418121E0F94C00059C3B3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				481418111E0F94C00059C3B3 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		481418171E0F94C10059C3B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				481418161E0F94C10059C3B3 /* ru */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4814181C1E0F95260059C3B3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4814181B1E0F95260059C3B3 /* ru */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -426,6 +502,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -476,6 +553,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
