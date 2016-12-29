@@ -1,0 +1,15 @@
+/* Used to welcome users */
+"WELCOME_SCREEN_1" = "Welkom bij “Biergelegenheden” (Beer Places).
+
+U heeft de juiste keuze gemaakt! Hier ontdekt u veel nieuws over uw geliefkoosde drank en over de gelegenheden waar u met uw vrienden kan naartoe gaan om een pot (of meer) te pakken en even de dagelijkse zorgen aan de kant kan zetten.";
+
+/* Used to explain apps */
+"WELCOME_SCREEN_2" = "Als een bepaalde bar of cafe u heeft bekoord, dan mag u ze in onze databank plaatsen en informatie erover delen met vrienden en alle gebruikers van “Biergelegenheden” (Beer Places).";
+
+/* Used for terms and conditions */
+"WELCOME_SCREEN_3" = "Regels en Voorwaarden
+
+Beste vriend,
+het gebruik van deze app veronderstelt dat u zich houdt aan bepaalde regels en voorwaarden. Het is belangrijk om die te lezen en te begrijpen. Als u ze gelezen heeft en akkoord gaat met de voorwaarden, klik dan op “aanvaard”. Door hierop te drukken verklaart u zich ermee akkoord dat deze voorwaarden op u van toepassing zijn en dat u de leeftijd heeft waarop u in uw land van herkomst bier mag verbruiken op een wettige manier.  Daarna krijgt u toegang tot de app “Biergelegenheden”.
+        ";
+

@@ -1,0 +1,16 @@
+/* Used to welcome users */
+"WELCOME_SCREEN_1" = "Willkommen auf der Beer Places App.
+
+Hier bist Du richtig!
+Finde hier interessante Neuigkeiten über Dein Lieblingsbier oder suche nach tollen Lokalen, um etwas mit Deinen Freunden bei einem guten Bier abzuhängen und die Alltagssorgen zu vergessen.";
+
+/* Used to explain apps */
+"WELCOME_SCREEN_2" = "Solltest Du ein Pub, eine Bar oder ein Lokal kenne, das noch nicht in unserer App gelistet ist, trage es ein und teile so Deine Erfahrungen mit Deinen Freunden und anderen Beer Places App Nutzern.";
+
+/* Used for terms and conditions */
+"WELCOME_SCREEN_3" = "Allgemeine Geschäftsbedingungen
+
+Lieber Freund und Nutzer der Beer Places App!
+Die Benutzung unserer App unterliegt einigen regeln und Verhaltensrichtlinien. Es ist für Dich als Nutzer wichtig, dies zu lesen und zu verstehen. Wenn Du Dich mit unseren Regeln einverstanden erklärst, drücke bitte den „Accept“-Button. Mit dem Drücken dieses Buttons erklärst Du Dich mit den AGB einverstanden. Weiterhin erklärst Du dadurch, dass Du die gesetzlichen Altersvorschriften erfüllst, welche in Deinem Land bestehen um alkoholische Getränke zu konsumieren.
+        ";
+

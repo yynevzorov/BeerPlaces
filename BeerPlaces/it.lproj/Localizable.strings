@@ -1,0 +1,16 @@
+/* Used to welcome users */
+"WELCOME_SCREEN_1" = "Benvenuti alla app “Birrerie”.
+
+Avete fatto la scelta giusta!
+Qui puoi trovare molte informazioni sulle vostre birre preferite e sui posti dove passare un po’ di tempo con i tuoi amici e buttar giu’ un sorso di birra e dimenticare i tuoi problemi per un po’.";
+
+/* Used to explain apps */
+"WELCOME_SCREEN_2" = "Se vi piace qualche pub o una birreria, puoi aggiungerlo al nostro archivio, condividere le informazioni con amici ed i clienti delle Birrerie.";
+
+/* Used for terms and conditions */
+"WELCOME_SCREEN_3" = "Termini e condizioni
+
+Caro amico!
+Usando la app “Birrerie” ci si assume l’osservanza di alcune regole e condizioni. E’ importante leggerle e capirle. Quando leggi ed accetti i Termini e le Condizioni, per favore, premi sul pulsante \"Accetto\". Premere il pulsante significa che accetti tutte le condizioni che ti riguardano, quando ottieni l’accesso a “Birrerie”, tu confermi anche che hai un’eta’ per poter bere legalmente nel tuo paese.
+        ";
+
