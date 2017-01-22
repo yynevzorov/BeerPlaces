@@ -13,6 +13,7 @@ class DataViewController: UIViewController {
     @IBOutlet weak var textDataViewController: UITextView!
     
     var dataObject: String = ""
+    
 //    var dataObject1: String = ""
     var index: Int = 0
 
